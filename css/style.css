@@ -1,0 +1,201 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-size: 90%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: sans-serif;
+    background-color: black;
+   }
+/*header*/
+nav {
+    margin: 0;
+    border-top: 0;
+}
+nav ul {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+nav ul li {
+    width: 8%;
+    float: left;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: serif;
+    background: transparent;
+}
+nav ul li a:hover{
+    background: black;
+}
+.logo{
+    text-align: center;
+  background: transparent;
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  font-family: serif;
+  margin-bottom: 0px;
+}
+
+
+
+/*end of header */
+
+/*home section*/
+.container{
+    background: linear-gradient(to top, rgba(0, 0, 0, .6), rgba(0, 0, 0, .5)), url(background1.jpg) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: serif;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    padding-top: 80px;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+p{
+    text-align: center;
+    color: white;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+.btn1{
+    position: relative;
+    height: 200px;
+    border: 0;
+}
+.center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.button{
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 12px;
+    width: 250px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    justify-content: center;
+}
+.button:hover{
+    background-color: grey;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    border: 2px solid white;
+    color: black;
+}
+
+/*end of home section*/
+
+/*contact page*/
+.contact{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact2{
+    text-align: left;
+    color: white;
+    font-family: serif;
+    letter-spacing: 2px;
+}
+.contact1{
+    text-align: left;
+    color: white;
+    font-family: fantasy;
+    letter-spacing: 2px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+textarea{
+    display: block;
+    padding: 50px;
+    padding-left: 100px;
+    width: 50vh;
+    border: 1px #ddd solid;
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
+.contact-page input[type="text"],.contact-page input[type="text"],.contact-page[type="text"]{
+    display: block;
+    padding: 20px;
+    width: 80vh;
+    border: 1px #ddd solid;
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
+.contact-page input[type="submit"]{
+    margin: 0;
+    text-align: center;
+    border: 2px solid #ddd;
+    padding: 10px 10px;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    letter-spacing: 2px;
+    background-color: #ddd;
+    font-size: 1.2rem;
+}
+.contact-page input[type="submit"]:hover{
+    background: grey;
+    color: black;
+}
+/* end of contact page */
+
+/* gallery page */
+.row:after{
+    display: table;
+}
+.column{
+    float: left;
+    width: 100%;
+}
+.column img{
+    width: 25%;
+}
+.galore{
+    padding: 60px;
+    text-align: center;
+}
+/* end og gallery page */
